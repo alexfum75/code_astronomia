@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_2f728c7217968db6db45985066dd9de1 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_2f728c7217968db6db45985066dd9de1" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_2f728c7217968db6db45985066dd9de1 = L.map(
+                "map_2f728c7217968db6db45985066dd9de1",
+                {
+                    center: [45.6033261, 9.3001047],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 8,
+                    zoomControl: true,
+                    preferCanvas: false,
+                    title: "Object size",
+                    Stamen: "Toner",
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_e44af5d262f1ca6be3b25790e704b15c = L.tileLayer(
+                "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "Data by \u0026copy; \u003ca href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_2f728c7217968db6db45985066dd9de1);
+        
+    
+            var circle_ef198ba88e504329834d5545102e1781 = L.circle(
+                [45.6033261, 9.3001047],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.1, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5909, "stroke": true, "weight": 3}
+            ).addTo(map_2f728c7217968db6db45985066dd9de1);
+        
+    
+        var popup_8ddc821df1cd43e46c401441909389cd = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_35bf23c88a203e4b2dc1d2dc0a18e2ed = $(`<div id="html_35bf23c88a203e4b2dc1d2dc0a18e2ed" style="width: 100.0%; height: 100.0%;">Hilda object diameter: 11.81954453627181 Km</div>`)[0];
+                popup_8ddc821df1cd43e46c401441909389cd.setContent(html_35bf23c88a203e4b2dc1d2dc0a18e2ed);
+            
+        
+
+        circle_ef198ba88e504329834d5545102e1781.bindPopup(popup_8ddc821df1cd43e46c401441909389cd)
+        ;
+
+        
+    
+    
+            var circle_8977f998300e1f5c928ef7328b52a433 = L.circle(
+                [45.6033261, 9.3001047],
+                {"bubblingMouseEvents": true, "color": "yellow", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "yellow", "fillOpacity": 0.1, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 565, "stroke": true, "weight": 3}
+            ).addTo(map_2f728c7217968db6db45985066dd9de1);
+        
+    
+        var popup_7720f428fbdf37b929cbe48eacf36c3f = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_080ab3332a947cabebb8195c733111f1 = $(`<div id="html_080ab3332a947cabebb8195c733111f1" style="width: 100.0%; height: 100.0%;">Hilda object diameter: 1.131 Km</div>`)[0];
+                popup_7720f428fbdf37b929cbe48eacf36c3f.setContent(html_080ab3332a947cabebb8195c733111f1);
+            
+        
+
+        circle_8977f998300e1f5c928ef7328b52a433.bindPopup(popup_7720f428fbdf37b929cbe48eacf36c3f)
+        ;
+
+        
+    
+    
+            var circle_97b2dfdf49fe718443a7898c7811729a = L.circle(
+                [45.6033261, 9.3001047],
+                {"bubblingMouseEvents": true, "color": "purple", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "purple", "fillOpacity": 0.1, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3074, "stroke": true, "weight": 3}
+            ).addTo(map_2f728c7217968db6db45985066dd9de1);
+        
+    
+        var popup_7735eece31d71d32439a56bcb8afd16c = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_7856eb5f28d907407ff5d0f36e25b976 = $(`<div id="html_7856eb5f28d907407ff5d0f36e25b976" style="width: 100.0%; height: 100.0%;">Hilda object diameter: 6.149 Km</div>`)[0];
+                popup_7735eece31d71d32439a56bcb8afd16c.setContent(html_7856eb5f28d907407ff5d0f36e25b976);
+            
+        
+
+        circle_97b2dfdf49fe718443a7898c7811729a.bindPopup(popup_7735eece31d71d32439a56bcb8afd16c)
+        ;
+
+        
+    
+    
+            var circle_63a79c0a46c46d968e94d74526d268b3 = L.circle(
+                [45.6033261, 9.3001047],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "black", "fillOpacity": 0.1, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4181, "stroke": true, "weight": 3}
+            ).addTo(map_2f728c7217968db6db45985066dd9de1);
+        
+    
+        var popup_e2416b28c7e38e96984433226b5b16bf = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_f68235e7d17187630ce1ecdefaf2934b = $(`<div id="html_f68235e7d17187630ce1ecdefaf2934b" style="width: 100.0%; height: 100.0%;">Hilda object diameter: 8.362 Km</div>`)[0];
+                popup_e2416b28c7e38e96984433226b5b16bf.setContent(html_f68235e7d17187630ce1ecdefaf2934b);
+            
+        
+
+        circle_63a79c0a46c46d968e94d74526d268b3.bindPopup(popup_e2416b28c7e38e96984433226b5b16bf)
+        ;
+
+        
+    
+    
+            var circle_eedc2449f8d01914478894204097de9a = L.circle(
+                [45.6033261, 9.3001047],
+                {"bubblingMouseEvents": true, "color": "white", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "white", "fillOpacity": 0.1, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5941, "stroke": true, "weight": 3}
+            ).addTo(map_2f728c7217968db6db45985066dd9de1);
+        
+    
+        var popup_4d64724fbc7916e100119ca633263162 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_79cbfa953dd1e201a03719b683707827 = $(`<div id="html_79cbfa953dd1e201a03719b683707827" style="width: 100.0%; height: 100.0%;">Hilda object diameter: 11.883 Km</div>`)[0];
+                popup_4d64724fbc7916e100119ca633263162.setContent(html_79cbfa953dd1e201a03719b683707827);
+            
+        
+
+        circle_eedc2449f8d01914478894204097de9a.bindPopup(popup_4d64724fbc7916e100119ca633263162)
+        ;
+
+        
+    
+    
+            var circle_aeda94548f6a8c840d32d7b4de83aa8b = L.circle(
+                [45.6033261, 9.3001047],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.1, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 109422, "stroke": true, "weight": 3}
+            ).addTo(map_2f728c7217968db6db45985066dd9de1);
+        
+    
+        var popup_0b92a4d036d5ffba2a7098baf67f38a4 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_65f72c97f9807cbcbfcb76a51c61000e = $(`<div id="html_65f72c97f9807cbcbfcb76a51c61000e" style="width: 100.0%; height: 100.0%;">Hilda object diameter: 218.844 Km</div>`)[0];
+                popup_0b92a4d036d5ffba2a7098baf67f38a4.setContent(html_65f72c97f9807cbcbfcb76a51c61000e);
+            
+        
+
+        circle_aeda94548f6a8c840d32d7b4de83aa8b.bindPopup(popup_0b92a4d036d5ffba2a7098baf67f38a4)
+        ;
+
+        
+    
+</script>
+</html>

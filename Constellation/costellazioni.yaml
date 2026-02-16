@@ -1,0 +1,46 @@
+# dec_min dec_max  ==> altezza
+# ra_max ra_min ==> larghezza
+costellazioni:
+  Sagittario:
+    #https://astro4edu.org/it/resources/diagram/Ju53nC20Lt23/
+    dec_min: -40.2
+    dec_max: -15
+    ra_min: 18
+    ra_max: 19.8
+  Orione:
+    #https://astro4edu.org/it/resources/diagram/dg783o76n014/:
+    dec_min: -11
+    dec_max: 19.5
+    ra_min: 5
+    ra_max: 6.5
+  Vergine:
+    #https://astro4edu.org/it/resources/diagram/aT839V20hT52/:
+    dec_min: -20
+    dec_max: 15
+    ra_min: 11.5
+    ra_max: 15
+  Hydra:
+    #https://astro4edu.org/it/resources/diagram/aT839V20hT52/:
+    dec_min: -33.5
+    dec_max: 8.5
+    ra_min: 9
+    ra_max: 15
+  Sestante:
+    #https://astro4edu.org/it/resources/diagram/aT839V20hT52/:
+    dec_min: -9.5
+    dec_max: 5
+    ra_min: 9.5
+    ra_max: 10.9
+  Auriga:
+    #https://astro4edu.org/it/resources/diagram/aT839V20hT52/:
+    dec_min: 28.5
+    dec_max: 55
+    ra_min: 4.5
+    ra_max: 7.5
+  Leone:
+    #https://astro4edu.org/it/resources/diagram/uc91Hc319213/
+    #dec_min: -4
+    dec_min: 4
+    dec_max: 31
+    ra_min: 9
+    ra_max: 12

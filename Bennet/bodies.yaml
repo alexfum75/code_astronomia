@@ -1,0 +1,12 @@
+bodies:
+  - bennet:
+     color: red
+     comet: True
+  - earth:
+     color: blue
+  - venus:
+     color: coral
+  - mercury:
+     color: lightgreen
+  - Sun:
+     color: yellow
